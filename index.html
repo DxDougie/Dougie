@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v6.1.1/css/all.css"
+      integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Oleo+Script+Swash+Caps:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <title>Dougie</title>
+  </head>
+  <body>
+    <header>
+      
+      <ul>
+        <li>
+          <i class="fa-brands fa-github"></i>
+          <a target="blank" href="https://github.com/DxDougie">Github</a>
+        </li>
+        <li>
+          <i class="fa-brands fa-linkedin-in"></i>
+          <a
+            target="blank"
+            href="https://www.linkedin.com/in/douglas-monteiro-39118220a/"
+            >LinkedIn</a
+          >
+        </li>
+        <li>
+          <i class="fa-brands fa-whatsapp"></i>
+          <a target="blank" href="https://wa.me/61995049256/">WhatsApp</a>
+        </li>
+      </ul>
+    </header>
+    <main>
+      <section class="container">
+        <div class="name">
+          <h1>Douglas Monteiro</h1>
+          <h5>Web Games Developer</h5>
+        </div>
+
+        <div onclick="displayAbout()" id="arrow">
+          <i id="animation" class="fa-solid fa-gem"></i>
+        </div>
+        <div style="display: none" id="about">
+          <p>
+            Web Games Developer, estudande de Design em Jogos Digitais pela
+            Estácio.<br />
+            Desenvolvedor Front-End com experiência em HTML, CSS, JavaScript!<br />
+            Participante do Hiring Coders #3!<br />
+            Apaixonado por jogos e em constante aprendizagem!
+          </p>
+        </div>
+        
+
+    <footer class="section">
+      <div class="container grid">
+        <div class="brand">
+          <img class="logo" src="./Assets/DOUGLOGO3.png" alt="Logo Douglas" />
+          
+        </div>
+        <div class="form">
+          <div>
+            <p>Deixe seu contato!</p>
+          </div>
+          <form action="">
+            <input type="text" placeholder="Digite seu e-mail!" />
+            <button>Enviar!</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <audio controls autoplay preload="metadata" style="width: 200px">
+      <source
+        src="./Assets/Steven-Universe-Soundtrack-instrumentalfx.mp3"
+        type="audio/mpeg"
+      />
+      Your browser does not support the audio element.</audio
+    ><br />
+        
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      function displayAbout() {
+        var arrow = document.getElementById('animation')
+        arrow.classList.toggle('rotate')
+        var display = document.getElementById('about')
+        display.classList.toggle('active')
+      }
+    </script>
+  </body>
+</html>
