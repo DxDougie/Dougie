@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  color:rgb(27, 88, 88);
+  color:rgb(3, 152, 158);
   font-family: 'Akaya Telivigala', cursive;
 }
 
@@ -16,9 +16,10 @@ a{
 }
 
 body{
-  background-image: url(./Assets/735746.jpg);
+  background-image: url(./Assets/pexels-eberhard-grossgasteiger-2088205.jpg);
   background-repeat: no-repeat;
   background-position: center center fixed;
+  background-size: cover;
 }
 
 header{
@@ -26,7 +27,7 @@ header{
   justify-content:space-between;
   align-items: center;
   padding: 10px;
-  box-shadow: 1px 1px 10px 10px black;
+  box-shadow: 1px 1px 10px 10px whitesmoke;
   margin-bottom: 45px;
 }
 
@@ -99,7 +100,7 @@ header ul li a:hover {
 .form button{
   width: 15%;
   padding: 5px 10px;
-  background:rgb(27, 88, 88);
+  background:rgb(3, 152, 158);
   color:white;
   cursor:pointer;
   border:none;
