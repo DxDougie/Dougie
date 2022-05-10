@@ -19,7 +19,9 @@ p{
   color: black;
 }
 
-
+body{
+  background:linear-gradient(rgb(255, 192, 169) 0px,rgb(255, 181, 166) 16.67%, rgb(255, 169, 162) 33.33%, rgb(242, 157, 157) 50%, rgb(222, 146, 151) 66.67%, rgb(3, 152, 158) 100% );
+}
 
 header{
   display: flex;
