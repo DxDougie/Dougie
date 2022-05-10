@@ -15,19 +15,18 @@ a{
   text-decoration: none;
 }
 
-body{
-  background-image: url(/Assets/pexels-eberhard-grossgasteiger-2088205.jpg);
-  background-repeat: no-repeat;
-  background-position: center center fixed;
-  background-size: cover;
+p{
+  color: black;
 }
+
+
 
 header{
   display: flex;
   justify-content:space-between;
   align-items: center;
   padding: 10px;
-  box-shadow: 1px 1px 10px 10px whitesmoke;
+  box-shadow: 1px 1px 10px 10px black;
   margin-bottom: 45px;
 }
 
@@ -55,20 +54,21 @@ header ul li a:hover {
 .container .name{
   font-size: 50px;
 }
+
 #arrow{
   font-size: 30px;
   cursor:pointer;
   animation: blink 1s steps(5, start) infinite;
 }
 
-@keyframes blink {
+@keyframes blink{
   to{
     visibility: hidden;
   }
 }
 
 #animation{
-  transition: 300ms;
+  transition: none 300ms;
 }
 
 .rotate{
